@@ -1,6 +1,15 @@
+body {
+  font-family: "Fira Code", sans-serif;
+}
+
 body,
 h1,
 h2,
 h3 {
   margin: 0;
+}
+
+button {
+  border: none;
+  font-family: inherit;
 }
