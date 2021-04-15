@@ -20,3 +20,17 @@
 .card-project.-blue {
   background-color: #2222ff;
 }
+
+.card-project figcaption {
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+
+.wrapper-card-figcaption {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
