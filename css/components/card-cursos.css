@@ -1,4 +1,4 @@
-.card-project {
+.card-cursos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,15 +8,15 @@
   box-shadow: 10px 10px 0px #fff;
 }
 
-.card-project .logo {
+.card-cursos .logo {
   height: 280px;
   width: 280px;
 }
 
-.card-project.-red {
+.card-cursos.-red {
   background-color: red;
 }
 
-.card-project.-blue {
+.card-cursos.-blue {
   background-color: #2222ff;
 }
