@@ -19,3 +19,7 @@
 .main-button.-full {
   width: 100%;
 }
+
+.main-button.-full:hover {
+  transform: scale(1.015);
+}
