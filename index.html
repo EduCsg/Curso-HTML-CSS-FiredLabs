@@ -45,10 +45,10 @@
         </h1>
         <!-- <img src="assets/img/LogoMarcoBruno.png" alt="Avatar do Marco Bruno"> -->
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Cursos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
+            <a class="main-action" href="#cursos">Cursos</a>
+            <a class="main-action" href="#sobre">Sobre</a>
+            <a class="main-action" href="#contato">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
@@ -62,12 +62,12 @@
 
             <div class="navigation">
                 <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
+                <a class="main-button" href="#contato">Contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="main-section">
+    <section class="main-section" id="skills">
         <h2 class="main-title -second">
             Skills
         </h2>
@@ -130,7 +130,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
+    <section class="main-section -bgBlack -bdFirst" id="cursos">
         <h2 class="main-title -second">
             Cursos
         </h2>
@@ -156,7 +156,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgSecond -bdBlack">
+    <section class="main-section -bgSecond -bdBlack" id="sobre">
         <h2 class="main-title -second ">Sobre</h2>
 
         <section class="main-carousel">
@@ -239,18 +239,18 @@
         </p>
     </section>
 
-    <form class="main-form">
+    <form class="main-form" id="contato">
 
         <legend class="main-title -second">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+        <input class="main-input" id="name" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
+        <textarea class="main-input -textarea" id="message" required></textarea>
 
         <button class="main-button -full" type="submit">Enviar</button>
     </form>
