@@ -6,6 +6,11 @@
   width: 310px;
   height: 310px;
   box-shadow: 10px 10px 0px #fff;
+  transition: transform 150ms linear;
+}
+
+.card-cursos:hover{
+  transform: scale(1.04);
 }
 
 .card-cursos .logo {
