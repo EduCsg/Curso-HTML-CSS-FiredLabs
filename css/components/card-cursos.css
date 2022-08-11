@@ -1,27 +1,27 @@
 .card-cursos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #7c5e99;
-  width: 310px;
-  height: 310px;
-  box-shadow: 10px 10px 0px #fff;
-  transition: transform 150ms linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #7c5e99;
+	width: 310px;
+	height: 310px;
+	box-shadow: 10px 10px 0px #fff;
+	transition: transform 150ms linear;
 }
 
-.card-cursos:hover{
-  transform: scale(1.04);
+.card-cursos:hover {
+	transform: scale(1.04);
 }
 
 .card-cursos .logo {
-  height: 280px;
-  width: 280px;
+	height: 280px;
+	width: 280px;
 }
 
 .card-cursos.-red {
-  background-color: red;
+	background-color: red;
 }
 
 .card-cursos.-blue {
-  background-color: #2222ff;
+	background-color: #2222ff;
 }

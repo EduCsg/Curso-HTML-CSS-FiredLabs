@@ -1,9 +1,9 @@
 * {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Fira Code", sans-serif;
+	font-family: "Fira Code", sans-serif;
 }
 
 body,
@@ -12,11 +12,11 @@ h2,
 h3,
 figure,
 input {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 button {
-  border: none;
-  font-family: inherit;
+	border: none;
+	font-family: inherit;
 }

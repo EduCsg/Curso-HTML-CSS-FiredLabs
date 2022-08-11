@@ -1,26 +1,26 @@
 .main-section {
-  background-color: #f25a70;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  border-bottom: 10px solid #7c5e99;
+	background-color: #f25a70;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	border-bottom: 10px solid #7c5e99;
 }
 
 .main-section .main-title {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .main-section.-bgBlack {
-  background-color: #000;
+	background-color: #000;
 }
 
 .main-section.-bdFirst {
-  border-color: #f25a70;
+	border-color: #f25a70;
 }
 
 .main-section.-bgSecond {
-  background-color: #7c5e99;
+	background-color: #7c5e99;
 }
 
 .main-section.-bdBlack {
-  border-color: #000;
+	border-color: #000;
 }

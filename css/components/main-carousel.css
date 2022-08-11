@@ -1,53 +1,53 @@
 .main-carousel {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  padding: 0px 80px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	padding: 0px 80px;
 }
 
 .main-carousel::after {
-  display: block;
-  content: "";
-  position: absolute;
-  left: 50px;
-  top: 35px;
-  height: 6px;
-  width: calc(100% - 100px);
-  background-color: #000;
+	display: block;
+	content: "";
+	position: absolute;
+	left: 50px;
+	top: 35px;
+	height: 6px;
+	width: calc(100% - 100px);
+	background-color: #000;
 }
 
 .main-carousel::before {
-  display: block;
-  content: "";
-  position: absolute;
-  box-sizing: border-box;
-  left: 0px;
-  top: 35px;
-  width: 100%;
-  border: 3px dashed #000;
+	display: block;
+	content: "";
+	position: absolute;
+	box-sizing: border-box;
+	left: 0px;
+	top: 35px;
+	width: 100%;
+	border: 3px dashed #000;
 }
 
 .main-carousel .button-arrow {
-  position: absolute;
-  bottom: 70px;
-  transform: translateY(50%);
+	position: absolute;
+	bottom: 70px;
+	transform: translateY(50%);
 }
 
 .main-carousel .button-arrow.-left {
-  left: 15px;
+	left: 15px;
 }
 
 .main-carousel .button-arrow.-right {
-  right: 15px;
+	right: 15px;
 }
 
 .main-carousel .items {
-  width: 100%;
-  overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 }
 
 .main-carousel .elements {
-  display: flex;
-  justify-content: space-between;
-  transition: transform 450ms ease-out;
+	display: flex;
+	justify-content: space-between;
+	transition: transform 450ms ease-out;
 }
